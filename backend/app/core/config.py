@@ -20,6 +20,11 @@ class Settings(BaseModel):
     required_roles: tuple[str, ...] = ("order_id", "product", "price", "date")
     suspicious_order_amount_threshold: float = 10000.0
     suspicious_quantity_threshold: float = 100.0
+    cors_allowed_origins: tuple[str, ...] = (
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://inalyze.vercel.app",
+    )
 
 
 settings = Settings()
