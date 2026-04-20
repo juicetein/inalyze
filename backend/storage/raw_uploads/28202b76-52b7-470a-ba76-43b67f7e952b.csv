@@ -1,0 +1,11 @@
+order_id,customer,product,quantity,price,date,fulfillment_status,payment_status
+1001,John Doe,T-Shirt,2,25,2024-01-01,fulfilled,paid
+1002,Jane Smith,Hoodie,1,60,2024-01-02,fulfilled,paid
+1003,John Doe,T-Shirt,1,25,2024-01-05,fulfilled,paid
+1004,Alex Lee,Hat,3,15,2024-01-07,,paid
+1005,Chris Park,Sneakers,1,120,2024-01-10,pending,paid
+1006,John Doe,T-Shirt,2,25,2024-01-12,fulfilled,paid
+1007,Jane Smith,Hoodie,1,60,2024-01-15,fulfilled,paid
+1008,Maria Cruz,Bag,2,40,2024-01-18,fulfilled,failed
+1009,Alex Lee,Hat,1,15,2024-01-20,fulfilled,paid
+1010,Chris Park,Sneakers,1,120,2024-01-25,pending,paid

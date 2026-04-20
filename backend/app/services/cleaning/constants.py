@@ -1,0 +1,33 @@
+FULFILLMENT_STATUS_MAP = {
+    "fulfilled": "fulfilled",
+    "complete": "fulfilled",
+    "completed": "fulfilled",
+    "shipped": "fulfilled",
+    "delivered": "fulfilled",
+    "unfulfilled": "unfulfilled",
+    "not fulfilled": "unfulfilled",
+    "open": "unfulfilled",
+    "partial": "partial",
+    "partially fulfilled": "partial",
+    "pending": "pending",
+    "in progress": "pending",
+    "processing": "pending",
+    "cancelled": "cancelled",
+    "canceled": "cancelled",
+}
+
+PAYMENT_STATUS_MAP = {
+    "paid": "paid",
+    "completed": "paid",
+    "settled": "paid",
+    "unpaid": "unpaid",
+    "not paid": "unpaid",
+    "pending": "pending",
+    "awaiting payment": "pending",
+    "authorized": "authorized",
+    "refunded": "refunded",
+    "partial refund": "refunded",
+    "partially refunded": "refunded",
+    "failed": "failed",
+    "declined": "failed",
+}
