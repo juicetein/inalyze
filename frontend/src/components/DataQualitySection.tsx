@@ -12,7 +12,7 @@ export function DataQualitySection({
   const warnings = dataQuality.issues.slice(0, 5);
   const missingFields =
     dataQuality.missing_required_fields.length > 0
-      ? dataQuality.missing_required_fields.map((field) => field.replaceAll("_", " "))
+      ? dataQuality.missing_required_fields.map((field) => field.replace(/_/g, " "))
       : ["No missing required fields"];
 
   return (
